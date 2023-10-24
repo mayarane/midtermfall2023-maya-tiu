@@ -34,39 +34,42 @@
       <p>
         <span class="emphasis">I may not know what to do if you needed a full stack website, but I know I'm the best guinea pig.</span>
       </p>
-  </div>
-</div>
 
-</body>
-<!-- 
+      <!-- Even/Odd Number Checker -->
+      <script>
+        // Prompt the user for a number
+        const userInput = prompt("Enter a number:");
+        const num = parseInt(userInput);
 
-  <script>
-    // Function to print numbers from 1 to eNum
-    function evenCountdown(eNum) {
-      for (let i = 1; i <= eNum; i++) {
-        console.log(i);
-      }
-    }
+        if (!isNaN(num)) {
+          if (num % 2 === 0) {
+            evenCountdown(num);
+          } 
+          
+          else {
+            console.log("This is an odd number");
+          }
+        } 
+        
+        else {
+          console.log("Invalid input. Please enter a valid number.");
+        }
 
-    // Get a number from the user
-    const userInput = prompt("Enter a number:");
-    const num = parseInt(userInput);
+        // Function to count down from eNum to 1 and print even numbers
+        function evenCountdown(eNum) {
+          for (var i = 1; i <= eNum; i++) {
+            
+              console.log(i);
+      
+          }
+        }
+        </script>
+      </div>
+    </div>
+  </body>
+</html>
 
-    // Check if the number is even or odd
-    if (!isNaN(num)) {
-      if (num % 2 === 0) {
-        // If the number is even, call evenCountdown function
-        evenCountdown(num);
-      } else {
-        // If the number is odd, print a message
-        console.log("This is an odd number");
-      }
-    } else {
-      console.log("Invalid input. Please enter a valid number.");
-    }
-  </script>
-</body> --> 
-<!-- </html> -->
-
+<!-- Part 2: Conceptual Questions (question 1) -->
+<!-- Valid IPv4 address example: 192.168.1.1 -->
 
 
